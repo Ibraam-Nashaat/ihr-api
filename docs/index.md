@@ -19,7 +19,7 @@ This migration will:
 
 By implementing these architectural changes, the project aims to improve performance, simplify maintenance, and provide a cleaner, more modular codebase for future development.
 
-## 2. What I Did
+## 2. Work Done
 
 This project follows a **Controller-Service-Repository** architecture for modularity, scalability, and maintainability. The layers are clearly separated for cleaner code and easier testing.
 
@@ -55,21 +55,9 @@ Migrated the following endpoints from Django to FastAPI:
 Containerized the application with Docker to provide a consistent, portable runtime environment for all deployment setups.
 
 
-## 3. Current State
+## 3. Merged Pull Requests
 
-- All listed endpoints are fully functional in FastAPI.
-- Architecture is production-ready and follows best practices.
-- Integrated with Docker for deployment.
-- Automatic API docs available via `/docs`.
-
-
-## 4. What's Left To Do
-
-All planned tasks have been completed.
-
-## 5. Merged Pull Requests
-
-Here are the accepted pull requests that contain my work:
+The accepted pull requests that contain my work:
 * [PR #31 – Return recent results when timebin fields are not provided ](https://github.com/InternetHealthReport/ihr-api/pull/31)
 * [PR #30 – Added page size to .env file](https://github.com/InternetHealthReport/ihr-api/pull/30)
 * [PR #29 – Added /hegemony, /hegemony/countries and /hegemony/prefixes endpoints](https://github.com/InternetHealthReport/ihr-api/pull/29)
@@ -83,12 +71,6 @@ Here are the accepted pull requests that contain my work:
 * [PR #6 – Added database models and /hegemony/cones endpoint](https://github.com/InternetHealthReport/ihr-api/pull/6)
 * [PR #2 – Country endpoint](https://github.com/InternetHealthReport/ihr-api/pull/2)
 
-
-## 6. Challenges
-
-* **Ensuring endpoints accuracy:** The migration required verifying that all newly implemented endpoints returned correct and consistent data. This was achieved by comparing the responses from the new API with those from the legacy API and confirming identical results.
-
-* **Seamless deployment post-migration:** Deployment stability was ensured by containerizing the application with Docker, enabling a smooth transition after migration.
 
 
 
