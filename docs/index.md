@@ -19,7 +19,7 @@ This migration will:
 
 By implementing these architectural changes, the project aims to improve performance, simplify maintenance, and provide a cleaner, more modular codebase for future development.
 
-## 2. Work Done
+## 2. Implementation
 
 This project follows a **Controller-Service-Repository** architecture for modularity, scalability, and maintainability. The layers are clearly separated for cleaner code and easier testing.
 
