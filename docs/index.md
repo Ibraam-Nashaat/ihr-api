@@ -25,13 +25,13 @@ This project follows a **Controller-Service-Repository** architecture for modula
 
 ![Project Architecture](images/project_architecture.png)
 
-* **Controller Layer** – Handles HTTP requests, calls services, and returns structured responses.
-* **Service Layer** – Encapsulates business logic, enforces rules, and delegates data access to repositories, keeping controllers decoupled from domain logic.
-* **Repository Layer** – Abstracts database interactions, providing structured and reusable data access methods.
-* **DTOs** – Define and validate data formats between layers, ensuring consistent API requests/responses and isolating models from external communication.
-* **Model Layer** – Defines database schemas, relationships, field types, and constraints, mapping directly to tables and integrating with repositories.
+* **Controller Layer :**  Handles HTTP requests, calls services, and returns structured responses.
+* **Service Layer :**  Encapsulates business logic, enforces rules, and delegates data access to repositories, keeping controllers decoupled from domain logic.
+* **Repository Layer :**  Abstracts database interactions, providing structured and reusable data access methods.
+* **DTOs :**  Define and validate data formats between layers, ensuring consistent API requests/responses and isolating models from external communication.
+* **Model Layer :**  Defines database schemas, relationships, field types, and constraints, mapping directly to tables and integrating with repositories.
 
-### 2.1 API Endpoints Migration
+### 2.1. API Endpoints Migration
 
 Migrated the following endpoints from Django to FastAPI:
 
@@ -50,7 +50,7 @@ Migrated the following endpoints from Django to FastAPI:
 - `/metis/atlas/deployment/`
 - `/tr_hegemony/`
 
-### 2.2 Dockerization
+### 2.2. Dockerization
 
 Containerized the application with Docker to provide a consistent, portable runtime environment for all deployment setups.
 
@@ -84,7 +84,7 @@ Here are the accepted pull requests that contain my work:
 * [PR #2 – Country endpoint](https://github.com/InternetHealthReport/ihr-api/pull/2)
 
 
-## 5. Challenges
+## 6. Challenges
 
 * **Ensuring endpoints accuracy:** The migration required verifying that all newly implemented endpoints returned correct and consistent data. This was achieved by comparing the responses from the new API with those from the legacy API and confirming identical results.
 
