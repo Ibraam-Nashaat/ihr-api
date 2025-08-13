@@ -1,5 +1,3 @@
-# Migrate IHR API
-
 - Organization: [Internet Health Report](https://github.com/InternetHealthReport)
 - Project: [Migrate IHR API](https://github.com/InternetHealthReport/ihr-api) 
 - Contributor: Ibraam Nashaat
@@ -25,7 +23,7 @@ By implementing these architectural changes, the project aims to improve perform
 
 This project follows a **Controller-Service-Repository** architecture for modularity, scalability, and maintainability. The layers are clearly separated for cleaner code and easier testing.
 
-![Project Architecture](../docs/images/project_architecture.png)
+![Project Architecture](images/project_architecture.png)
 
 * **Controller Layer** – Handles HTTP requests, calls services, and returns structured responses.
 * **Service Layer** – Encapsulates business logic, enforces rules, and delegates data access to repositories, keeping controllers decoupled from domain logic.
