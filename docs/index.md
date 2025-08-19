@@ -1,5 +1,6 @@
 - Organization: [Internet Health Report](https://github.com/InternetHealthReport)
 - Project: [Migrate IHR API](https://github.com/InternetHealthReport/ihr-api) 
+- Mentors: Romain Fontugne, Dimitrios Giakatos 
 - Contributor: Ibraam Nashaat
 - GitHub: [Ibraam-Nashaat](https://github.com/Ibraam-Nashaat)
 - LinkedIn: [Ibraam Nashaat](https://www.linkedin.com/in/ibraamnashaat/)
@@ -58,6 +59,7 @@ Containerized the application with Docker to provide a consistent, portable runt
 ## 3. Merged Pull Requests
 
 The accepted pull requests that contain my work:
+* [PR #32 – Updated allowed CORS origins ](https://github.com/InternetHealthReport/ihr-api/pull/32)
 * [PR #31 – Return recent results when timebin fields are not provided ](https://github.com/InternetHealthReport/ihr-api/pull/31)
 * [PR #30 – Added page size to .env file](https://github.com/InternetHealthReport/ihr-api/pull/30)
 * [PR #29 – Added /hegemony, /hegemony/countries and /hegemony/prefixes endpoints](https://github.com/InternetHealthReport/ihr-api/pull/29)
