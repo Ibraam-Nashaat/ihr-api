@@ -58,7 +58,8 @@ Containerized the application with Docker to provide a consistent, portable runt
 
 ## 3. Merged Pull Requests
 
-The accepted pull requests that contain my work:
+The merged pull requests that contain my work:
+* [PR #33 – Added data migration steps ](https://github.com/InternetHealthReport/ihr-api/pull/33)
 * [PR #32 – Updated allowed CORS origins ](https://github.com/InternetHealthReport/ihr-api/pull/32)
 * [PR #31 – Return recent results when timebin fields are not provided ](https://github.com/InternetHealthReport/ihr-api/pull/31)
 * [PR #30 – Added page size to .env file](https://github.com/InternetHealthReport/ihr-api/pull/30)
