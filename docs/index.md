@@ -59,20 +59,20 @@ Containerized the application with Docker to provide a consistent, portable runt
 ## 3. Merged Pull Requests
 
 The merged pull requests that contain my work:
-* [PR #33 – Added data migration steps ](https://github.com/InternetHealthReport/ihr-api/pull/33)
-* [PR #32 – Updated allowed CORS origins ](https://github.com/InternetHealthReport/ihr-api/pull/32)
-* [PR #31 – Return recent results when timebin fields are not provided ](https://github.com/InternetHealthReport/ihr-api/pull/31)
-* [PR #30 – Added page size to .env file](https://github.com/InternetHealthReport/ihr-api/pull/30)
-* [PR #29 – Added /hegemony, /hegemony/countries and /hegemony/prefixes endpoints](https://github.com/InternetHealthReport/ihr-api/pull/29)
-* [PR #22 – Added /disco/events, /tr\_hegemony and /hegemony/alarms endpoints](https://github.com/InternetHealthReport/ihr-api/pull/22)
-* [PR #17 – Added network delay and metis endpoints and removed link endpoints](https://github.com/InternetHealthReport/ihr-api/pull/17)
-* [PR #15 – Added /network\_delay/locations endpoint](https://github.com/InternetHealthReport/ihr-api/pull/15)
-* [PR #13 – Added link forwarding endpoint](https://github.com/InternetHealthReport/ihr-api/pull/13)
-* [PR #11 – Added /link/delay endpoint](https://github.com/InternetHealthReport/ihr-api/pull/11)
-* [PR #9 – Added /networks endpoint](https://github.com/InternetHealthReport/ihr-api/pull/9)
-* [PR #8 – Removed some foreign key constraints and returned some primary keys to integer](https://github.com/InternetHealthReport/ihr-api/pull/8)
-* [PR #6 – Added database models and /hegemony/cones endpoint](https://github.com/InternetHealthReport/ihr-api/pull/6)
-* [PR #2 – Country endpoint](https://github.com/InternetHealthReport/ihr-api/pull/2)
+1. [PR #33 – Added data migration steps ](https://github.com/InternetHealthReport/ihr-api/pull/33)
+2. [PR #32 – Updated allowed CORS origins ](https://github.com/InternetHealthReport/ihr-api/pull/32)
+3. [PR #31 – Return recent results when timebin fields are not provided ](https://github.com/InternetHealthReport/ihr-api/pull/31)
+4. [PR #30 – Added page size to .env file](https://github.com/InternetHealthReport/ihr-api/pull/30)
+5. [PR #29 – Added /hegemony, /hegemony/countries and /hegemony/prefixes endpoints](https://github.com/InternetHealthReport/ihr-api/pull/29)
+6. [PR #22 – Added /disco/events, /tr\_hegemony and /hegemony/alarms endpoints](https://github.com/InternetHealthReport/ihr-api/pull/22)
+7. [PR #17 – Added network delay and metis endpoints and removed link endpoints](https://github.com/InternetHealthReport/ihr-api/pull/17)
+8. [PR #15 – Added /network\_delay/locations endpoint](https://github.com/InternetHealthReport/ihr-api/pull/15)
+9. [PR #13 – Added link forwarding endpoint](https://github.com/InternetHealthReport/ihr-api/pull/13)
+10. [PR #11 – Added /link/delay endpoint](https://github.com/InternetHealthReport/ihr-api/pull/11)
+11. [PR #9 – Added /networks endpoint](https://github.com/InternetHealthReport/ihr-api/pull/9)
+12. [PR #8 – Removed some foreign key constraints and returned some primary keys to integer](https://github.com/InternetHealthReport/ihr-api/pull/8)
+13. [PR #6 – Added database models and /hegemony/cones endpoint](https://github.com/InternetHealthReport/ihr-api/pull/6)
+14. [PR #2 – Country endpoint](https://github.com/InternetHealthReport/ihr-api/pull/2)
 
 
 
